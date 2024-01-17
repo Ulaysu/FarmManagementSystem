@@ -49,7 +49,7 @@ namespace FarmManagementSystem
 			{
 				foreach (Crop crop in items)
 				{
-                    Console.WriteLine($"{crop.Name}: {crop.Quantity} units");
+                    	Console.WriteLine($"{crop.Name}: {crop.Quantity} units");
                 }
 			}	
 		}
